@@ -18,6 +18,9 @@ jobs:
       with:
         node-version: '14' # Indica a versão do node a ser instalada
 
+    - name: Clear npm cache
+      run: npm cache clean --force    
+
     - name: Instalar dependências  
       run: npm install # Instala as dependências necessárias
 
