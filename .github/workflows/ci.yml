@@ -22,4 +22,4 @@ jobs:
       run: npm install # Instala as dependências necessárias
 
     - name: Executar testes
-      run: npm test # Executa os testes
+      run: npx mocha # Executa os testes
